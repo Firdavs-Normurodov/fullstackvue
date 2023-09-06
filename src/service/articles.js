@@ -3,5 +3,6 @@ const ArticleService={
   articles(){
     return axios.get('/articles')
   }
+  
 }
 export default ArticleService
